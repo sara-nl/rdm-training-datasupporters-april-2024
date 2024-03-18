@@ -22,7 +22,7 @@ We are particularly interested in tackling some of the big challenges data stewa
 |  10:30 - 11:15 | 2. Data findability and repositories|
 |  11:15 - 12:30 | 3. Analysis and compute flows |
 |  12:30 - 13:15 | Lunch |
-|  13:15 - 14:15 | Sharing and collaborating flows |
-|  14:15 - 15:15 | Archiving and preservation flows |
+|  13:15 - 14:15 | 4. Sharing and collaborating flows |
+|  14:15 - 15:15 | 5. Archiving and preservation flows |
 |  15:15 - 15:30 | Coffe break |
-|  15:30 - 16:30 | End discussion |
+|  15:30 - 16:30 | 6. Conclusion |
