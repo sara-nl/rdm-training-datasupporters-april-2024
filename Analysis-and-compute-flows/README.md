@@ -1,7 +1,3 @@
-<img align="right" src="images/surf.jpg" width="100px">
-<br><br>
-
-
 # Analysis and compute flows
 
 **Authors**
