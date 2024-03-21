@@ -87,16 +87,15 @@ To submit the job run the following command:
 When is it important and when not? Do you typically talk about this with the researchers?
 > * Expand this problem to the data in various research areas (weather data, DNA profiles, medical data, etc.) where millions of files containing petabytes of data are scattered across several systems. What would you recommend to a researcher to think about during the compute stage of data?
 
-## 5. Share the results
-Research is mostly a collaborative effort. This means that once you have run your analysis you need to share the results with other collaborators. Start by uploding your result to your _own_ projectfolder on Research Drive:
+## 5. Handling the results and the Output
+The compute grant at SURF is about to end so you need to move the data elsewhere, hopefully you had that planned in the DMP. Upload your result to your _own_ projectfolder on Research Drive:
 
 ```
 (copy the full output folder) rclone copy result/result-XXXXXXXXX.txt "RD:Demo XX (Projectfolder)"
 ```
-
 There is a good chance you found aliens in this dataset. This is HUGE! We think this should be independently cross-checked by another researcher!
 
 > **_Food for thought:_**
 > * You downloaded an existing dataset and ran some analysis on it. Would you be able to do it one year from now?
-> * If someone wants to reproduce your results, would they be able to do so? Are researchers even allowed to have access to your output data?
-> * You recall how the 'finding of the dataset' went wrong when we searched for datasets with aliens? How can you ensure your dataset can be much in an easier way?
+> * If someone wants to reproduce your results, would they be able to do so? Think input data, software, data analysis pipelines, etc. Are researchers even allowed to have access to your output data?
+> * You recall how the 'finding of the dataset' went wrong when we searched for datasets with aliens? How can you ensure your dataset can be found in a much easier way?
