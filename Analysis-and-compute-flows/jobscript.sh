@@ -7,13 +7,15 @@
 # SBATCH --partition=thin_course
 
 # Change these variables if you want to change the input or output directories
-inputdir="$HOME/input"
-outputdir="$HOME/result"
+inputdir="$HOME/rdm-april-2024/input"
+outputdir="$HOME/rdm-april-2024/result"
 resultsfile="result-$SLURM_JOBID.txt"
 
 # Make sure that the outputdir exist
 mkdir -p $outputdir
 
-# Count the words of all files in the inputdir and write to outputdirectory
-# The freuqency table will be sorted on most common words first.
-cat $inputdir/* | tr '[:upper:]' '[:lower:]' | awk '{for(i=1;i<=NF;i++) count[$i]++} END {for(j in count) print j, count[j]}' | sort -k2 -n -r > $outputdir/$resultsfile
+# Is the input data found
+echo "Running analysis on "$inputdir
+echo "Hopefully we will find the aleins"
+sleep 10s
+echo "Output stored in "$outputdir
