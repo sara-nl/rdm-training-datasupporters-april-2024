@@ -12,7 +12,7 @@ We talked a little about RDM principles and then we focused on findability princ
 In this module, we will cover:
 
 1. A researcher will compute/analyse their data at one of the SURF compute infrastructures either on their own or in a collaboration
-2. The results / intermediate output / data + software should leave the compute infrastructure and go 'somewhere'. Together we will look into where that 'somewhere' could be
+2. The results / intermediate output / data + software should leave the compute infrastructure. Together we will look into where the data goes and how
 
 ## 1. Prerequisites
 
@@ -29,9 +29,9 @@ Login to the Snellius with your appropriate credentials:
 ssh scurXXXX@snellius.surf.nl
 ```
 
-## 3. Mount Research Drive on Snellius/Download data from Research Drive to Snellius
+## 3. Download data from Research Drive to Snellius
 
-We start with the first step of the Research Data Life Cycle: acquire data that needs to be processed. For this assignment you have to download the data from Research Drive. The most efficient way to move data from Research Drive to Snellius is through a client called rclone. Rclone is already installed on Snellius login node and you need to configure it for Research Drive. You will receive credentials for your Research Drive account during the hands-on session. Please refer to [this guide](https://wiki.surfnet.nl/display/RDRIVE/Access+Research+Drive+via+Rclone) in our documentation to configure rclone. The portal can be found [here](https://demo.data.surfsara.nl) where you will create the password to proceed.
+We start with the second step of the Research Data Life Cycle: consolidate data that needs to be processed. The most efficient way to move data from Research Drive to Snellius is through a client called rclone. Rclone is already installed on Snellius login node and you need to configure it for Research Drive. We refer to [this guide](https://wiki.surfnet.nl/display/RDRIVE/Access+Research+Drive+via+Rclone) in our documentation to configure rclone. The portal can be found [here](https://demo.data.surfsara.nl) where we will create the password to proceed.
 
 The final config should look something like this:
 
@@ -53,7 +53,7 @@ scurXXXX@login3:~$ rclone ls RD:
  15747551 Training (Projectfolder)/ResearchDriveTraining-Onboarding.pdf
    104077 UvA-HPC (Projectfolder)/UvA HPC Course Material/alice-in-wonderland.txt
 ```
-This needs to be copied to your home folder on Snellius:
+Data needs to be copied to your home folder on Snellius:
 
 ```sh
 rclone copy "RD:UvA-HPC (Projectfolder)/UvA HPC Course Material" input
@@ -61,11 +61,8 @@ rclone copy "RD:UvA-HPC (Projectfolder)/UvA HPC Course Material" input
 
 > **_Food for thought:_**
 > * Are you sure you have the permission to 'just use' this dataset (just because you can download something does not mean you can just use it) or did you do something illegal? Do researchers you support ask you for support on this? 
-> What is your institute policy on the data researchers acquire and then store on your systems or other systems outside e.g., SURF? Do you actively inform the researchers about this policy at the start of a project? (In the past, we had a lot of experience where a request could not be granted or did not proceed after teh grant because the researcher did not have the permission to use the data or bring it to SURF (e.g., policy that data cannot leave the premises)
-
-
-
-
+> * What is your institute policy on the data researchers acquire and then store on your systems or other systems outside e.g., SURF? Do you actively inform the researchers about this policy at the start of a project? (In the past, we had a lot of experience where a request could not be granted or did not proceed after teh grant because the researcher did not have the permission to use the data or bring it to SURF (e.g., policy that data cannot leave the premises)
+> * Do you encounter questions from users about data management at data consolidation? Do you play a role in preparing datasets for researchers?
 
 
 TBC
