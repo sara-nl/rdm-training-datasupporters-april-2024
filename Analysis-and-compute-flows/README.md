@@ -61,7 +61,7 @@ rclone copy "RD:UvA-HPC (Projectfolder)/UvA HPC Course Material" input
 
 > **_Food for thought:_**
 > * Are you sure you have the permission to 'just use' this dataset (just because you can download something does not mean you can just use it) or did you do something illegal? Do researchers you support ask you for support on this? 
-> * What is your institute policy on the data researchers acquire and then store on your systems or other systems outside e.g., SURF? Do you actively inform the researchers about this policy at the start of a project? We had a lot of experience IN THE PAST where a request could not be granted or did not proceed after tHE grant approval because the researcher did not have the permission to use the data altogether or bring it to SURF (e.g., policy that data cannot leave the premises, sensitive data)
+> * What is your institute policy on the data researchers acquire and then store on your systems or other systems outside e.g., SURF? Do you actively inform the researchers about this policy at the start of a project? We had a lot of experience IN THE PAST where a request could not be granted or did not proceed after the grant approval because the researcher did not have the permission to use the data altogether or bring it to SURF (e.g., policy that data cannot leave the premises, sensitive data)
 > * Do you encounter questions from users about data management and data consolidation? Do you play a role in preparing datasets for researchers?
 > * Note that researchers have to bear in mind that different systems have different performances, different setups so when they have a lot of data it is difficult to keep good track of what all happened to the data. Do they come to you with these questions?
 
