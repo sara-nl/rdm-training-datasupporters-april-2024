@@ -38,10 +38,10 @@ What are researchers using?
 ## 3. Start using Yoda
 
 The portal can be found [here](https://scuba-yoda.irods.surfsara.nl). Login with the credentials you have been provided with. We will walk through some key elements of Yoda using our data set:
-> * Uploading data
-> * Adding metadata according to predefined schemas
-> * Submitting data to the 'vault' area
-> * Reviewing submissions by a data manager
+- Uploading data
+- Adding metadata according to predefined schemas
+- Submitting data to the 'vault' area
+- Reviewing submissions by a data manager
 
 ## 4. Best practices
 We have been considering a scenario in which a DMP was either insufficiently detailed or simply foregone, leaving us with a blank slate to address the specific need of collaborating on our data set. Hopefully this illustrates the importance of creating DMPs that outline data sharing and collaboration strategies from the outset of research projects. 
