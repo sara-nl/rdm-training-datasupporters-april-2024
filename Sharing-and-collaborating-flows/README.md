@@ -1,4 +1,4 @@
-# Sharing and collaborating flows: IN DRAFT
+# Sharing and collaborating flows
 
 **Authors**
 - Maithili Kalamkar Stam (SURF)
@@ -7,7 +7,7 @@
 - Steven Voges (SURF)
 
 ## Let's recap
-Following from this morning's activities, we have our raw data saved in Research Drive and some analysis has taken place via Snellius. Whatever our initial plans as researchers, the results tend to throw us in a different direction, and indeed in this case the output suggests that a few more pairs of eyes are needed. It's time to pull in some collaborators, but using what means?  
+Following from this morning's activities, we have our raw data saved in Research Drive and some analysis has taken place via Snellius. Whatever our initial plans as researchers, the results tend to throw us in a different direction, and indeed in this case the output suggests that a few more pairs of eyes are needed. It's time to pull in some collaborators, but by what means?  
 
 In this module, we will address some of the common technical issues, review some popular collaboration platforms in the Netherlands (with a focus on the differences between SURF services) and discuss best practices. This should help you as a data professional when it comes to advising researchers on how to tackle the common challenge of sharing data between parties at different institutes. 
 
