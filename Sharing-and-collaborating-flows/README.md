@@ -35,13 +35,14 @@ What are researchers using?
 > * What are our real-life experiences of this stage? Is it planned for in advance of a research project? 
 > * In an ideal working environment, collaboration goes hand in hand with replication. Everyone should get the same results with the same dataset and analysis approach. How can this be supported by technical infrastructure? 
 
-## 3. Start using Yoda
+## 3. Collaboration via Yoda
+
+There are various options at SURF for storaging and managing data. We've taken a look at Research Drive, and now we're going to show you the data management platform Yoda. We will use Yoda to collaborate on our research with scientists from other institutes. 
 
 The portal can be found [here](https://scuba-yoda.irods.surfsara.nl). Login with the credentials you have been provided with. We will walk through some key elements of Yoda using our data set:
-- Uploading data
+- Uploading our data
 - Adding metadata according to predefined schemas
-- Submitting data to the 'vault' area
-- Reviewing submissions by a data manager
+- Inviting users to join our new research area
 
 ## 4. Best practices
 We have been considering a scenario in which a DMP was either insufficiently detailed or simply foregone, leaving us with a blank slate to address the specific need of collaborating on our data set. Hopefully this illustrates the importance of creating DMPs that outline data sharing and collaboration strategies from the outset of research projects. 
@@ -57,4 +58,6 @@ What are the key elements?
 > * Is an RDM layer really necessary for collaboration? It can be a large overhead, and possibly not achievable with certain project restrictions. What then? 
 
 ## 5. What do we do now? 
+If we were to continue our workflow using Yoda, we might want to submit it to the 'Vault', which prompts a data manager to check the format and metadata of the submitted collection and stores a snapshot of your research data. 
 
+What about the long term preservation and archiving requirements? This brings us to the next module... 
