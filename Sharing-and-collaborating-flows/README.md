@@ -6,15 +6,15 @@
 - Giacomo Cannizzaro (SURF)
 - Steven Voges (SURF)
 
-## Let's recap
-Following from this morning's activities, we have our raw data saved in Research Drive and some analysis has taken place via Snellius. Whatever our initial plans as researchers, the results tend to throw us in a different direction, and indeed in this case the output suggests that a few more pairs of eyes are needed. It's time to pull in some collaborators, but by what means?  
-
-In this module, we will address some of the common technical issues, review some popular collaboration platforms in the Netherlands (with a focus on the differences between SURF services) and discuss best practices. This should help you as a data professional when it comes to advising researchers on how to tackle the common challenge of sharing data between parties at different institutes. 
-
-## 1. Prerequisites
+## Sandbox accounts 
 
 - SURF Research Drive account username/password (from previous module)
 - SURF Yoda account username/password
+
+## 1. Let's recap
+Following from this morning's activities, we have our raw data saved in Research Drive and some analysis has taken place via Snellius. Whatever our initial plans as researchers, the results tend to throw us in a different direction, and indeed in this case the output suggests that a few more pairs of eyes are needed. It's time to pull in some collaborators, but by what means?  
+
+In this module, we will address some of the common technical issues, review some popular collaboration platforms in the Netherlands (with a focus on the differences between SURF services) and discuss best practices. This should help you as a data professional when it comes to advising researchers on how to tackle the common challenge of sharing data between parties at different institutes. 
 
 ## 2. Challenges and platforms 
 
@@ -56,5 +56,5 @@ What are the key elements?
 > * Berend Mons recently used the FAIR acronym to talk about being Fully AI Ready. What does this mean in terms of sharing and collaboration? Think of machine readability and standardised language. 
 > * Is an RDM layer really necessary for collaboration? It can be a large overhead, and possibly not achievable with certain project restrictions. What then? 
 
-5. What next? 
+## 5. What do we do now? 
 
