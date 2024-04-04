@@ -54,7 +54,7 @@ What are the key elements?
   - ...
 
 > **_Food for thought:_** 
-> * Berend Mons recently used the FAIR acronym to talk about being Fully AI Ready. What does this mean in terms of sharing and collaboration? Think of machine readability and standardised language. 
+> * What does working interoperably mean in terms of compute analysis? Think of machine readability and standardised language. 
 > * Is an RDM layer really necessary for collaboration? It can be a large overhead, and possibly not achievable with certain project restrictions. What then? 
 
 ## 5. What do we do now? 
