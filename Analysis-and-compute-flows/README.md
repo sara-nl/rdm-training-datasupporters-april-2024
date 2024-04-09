@@ -69,15 +69,15 @@ rclone copy "RD:UvA-HPC (Projectfolder)/UvA HPC Course Material" input
 It is time for the next step: analysing the data. To analyse the data, you also need some software or a script. For this project you need a job script that can perform a word count on the acquired data. To get the job script, run the following command: 
 
 ```sh
-(fix this) wget https://raw.githubusercontent.com/sara-nl/.../jobscript.sh
+wget https://raw.githubusercontent.com/sara-nl/rdm-training-datasupporters-april-2024/main/Analysis-and-compute-flows/jobscript.sh
 ```
 
-The jobscript starts a short job that runs analysis on all files in the defined input directory and writes the result in the output directory. In this analysis we are going to search for aliens!
+The jobscript starts a short job that runs analysis on the input data and creates output. As you know in this analysis we are going to search for aliens!
 
 To submit the job run the following command:
 
 ```
-(check this) sbatch jobscript.sh
+sbatch jobscript.sh (check the RD paths to run analysis and permissions)
 ```
 
 > **_Food for thought:_**
