@@ -26,7 +26,7 @@ We will use the Snellius (Dutch National Supercomputer hosted by SURF) login nod
 Login to the Snellius with your appropriate credentials:
 
 ```sh
-ssh scurXXXX@snellius.surf.nl
+ssh scur0895@snellius.surf.nl (replace the username with your username)
 ```
 
 ## 3. Download data from Research Drive to Snellius
