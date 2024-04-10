@@ -46,17 +46,18 @@ pass = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Once you have configured rclone you can inspect the remote location:
 
-(fix below paths)
 ```
 scurXXXX@login3:~$ rclone ls RD:
  3308028  Training (Projectfolder)/Hands-on.pdf
  15747551 Training (Projectfolder)/ResearchDriveTraining-Onboarding.pdf
+   22808  Training (Projectfolder)/Lofar Dataset/lofar.png
+    67613 Training (Projectfolder)/Lofar Dataset/lotss-dr2.json
    104077 UvA-HPC (Projectfolder)/UvA HPC Course Material/alice-in-wonderland.txt
 ```
 Data needs to be copied to your home folder on Snellius:
 
 ```sh
-rclone copy "RD:UvA-HPC (Projectfolder)/UvA HPC Course Material" input
+rclone copy "RD:Training (Projectfolder)/Lofar Dataset" input
 ```
 
 > **_Food for thought:_**
@@ -66,7 +67,7 @@ rclone copy "RD:UvA-HPC (Projectfolder)/UvA HPC Course Material" input
 > * Note that researchers have to bear in mind that different systems have different performances, different setups so when they have a lot of data it is difficult to keep good track of what all happened to the data. Do they come to you with these questions?
 
 ## 4. Run analysis on Snellius
-It is time for the next step: analysing the data. To analyse the data, you also need some software or a script. For this project you need a job script that can perform a word count on the acquired data. To get the job script, run the following command: 
+It is time for the next step: analysing the data. To analyse the data, you should have a developed and tested data analysis pipeline on the compute system. For this module, we will download the job script as follows: 
 
 ```sh
 wget https://raw.githubusercontent.com/sara-nl/rdm-training-datasupporters-april-2024/main/Analysis-and-compute-flows/jobscript.sh
@@ -77,7 +78,7 @@ The jobscript starts a short job that runs analysis on the input data and create
 To submit the job run the following command:
 
 ```
-sbatch jobscript.sh (check the RD paths to run analysis and permissions)
+sbatch jobscript.sh 
 ```
 
 > **_Food for thought:_**
@@ -91,7 +92,7 @@ When is it important and when not? Do you typically talk about this with the res
 The compute grant at SURF is about to end so you need to move the data elsewhere, hopefully you had that planned in the DMP. Upload your result to your _own_ projectfolder on Research Drive:
 
 ```
-(copy the full output folder) rclone copy result/result-XXXXXXXXX.txt "RD:Demo XX (Projectfolder)"
+rclone copy result/ouput.png "RD:Demo X (Projectfolder)"
 ```
 There is a good chance you found aliens in this dataset. This is HUGE! We think this should be independently cross-checked by another researcher!
 
