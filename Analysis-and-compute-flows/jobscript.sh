@@ -7,9 +7,9 @@
 # SBATCH --partition=thin_course
 
 # Change these variables if you want to change the input or output directories
-inputdir="$HOME/rdm-april-2024/input"
-outputdir="$HOME/rdm-april-2024/result"
-resultsfile="result-$SLURM_JOBID.txt"
+inputdir="$HOME/input"
+outputdir="$HOME/result"
+#resultsfile="result-$SLURM_JOBID.txt"
 
 # Make sure that the outputdir exist
 mkdir -p $outputdir
@@ -17,5 +17,7 @@ mkdir -p $outputdir
 # Is the input data found
 echo "Running analysis on "$inputdir
 echo "Hopefully we will find the aleins"
+cp $HOME/input/lofar.png $HOME/result/ouput.png
 sleep 10s
+
 echo "Output stored in "$outputdir
