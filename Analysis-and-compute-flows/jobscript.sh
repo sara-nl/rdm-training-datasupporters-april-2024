@@ -18,6 +18,5 @@ mkdir -p $outputdir
 echo "Running analysis on "$inputdir
 echo "Hopefully we will find the aleins"
 cp $HOME/input/lofar.png $HOME/result/ouput.png
-sleep 10s
 
 echo "Output stored in "$outputdir
