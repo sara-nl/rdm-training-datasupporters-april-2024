@@ -52,8 +52,8 @@ scurXXXX@login3:~$ rclone ls RD:
  15747551 Training (Projectfolder)/ResearchDriveTraining-Onboarding.pdf
    22808  Training (Projectfolder)/Lofar Dataset/lofar.png
     67613 Training (Projectfolder)/Lofar Dataset/lotss-dr2.json
-   104077 UvA-HPC (Projectfolder)/UvA HPC Course Material/alice-in-wonderland.txt
 ```
+
 Data needs to be copied to your home folder on Snellius:
 
 ```sh
@@ -96,7 +96,7 @@ rclone copy result/ouput.png "RD:Demo X (Projectfolder)"
 ```
 There is a good chance you found aliens in this dataset. This is HUGE! We think this should be independently cross-checked by another researcher!
 
-> **_Food for thought:_**
+> **_Food for thought to ask to researchers:_**
 > * You downloaded an existing dataset and ran some analysis on it. Would you be able to do it one year from now?
-> * If someone wants to reproduce your results, would they be able to do so? Think input data, software, data analysis pipelines, etc. Are researchers even allowed to have access to your output data?
+> * If someone wants to reproduce your results, would they be able to do so? Think input data, software, data analysis pipelines, etc. Are other researchers even allowed to have access to your output data?
 > * You recall how the 'finding of the dataset' went wrong when we searched for datasets with aliens? How can you ensure your dataset can be found in a much easier way?
