@@ -26,3 +26,6 @@ We are particularly interested in tackling some of the big challenges data stewa
 |  14:15 - 15:15 | 5. Archiving and preservation flows |
 |  15:15 - 15:30 | Coffe break |
 |  15:30 - 16:30 | 6. Conclusion |
+
+## Useful links
+https://fair-impact.eu/
